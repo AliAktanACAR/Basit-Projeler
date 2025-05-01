@@ -1,0 +1,20 @@
+islem = input("hangi işlem? ")
+
+a = int(input("bir sayı gir "))
+b = int(input("diğer sayıyı gir "))
+
+if (islem == "+"):
+    print("sonuç: ",(a+b))
+
+elif (islem == "-"):
+    print("sonuç: ",(a-b))
+
+elif (islem == "*"):
+    print("sonuç: ",(a*b))
+
+elif (islem == "/"):
+    print("sonuç: ",(a/b))
+
+else:
+    print("Lütfen Geçerli bir işlem giriniz")
+
