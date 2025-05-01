@@ -1,0 +1,18 @@
+#class mantığı
+class aliacar:
+    kalan_can=5
+    def saldir(self):
+        print("ölecen laa")
+        self.kalan_can =-1
+    def hayatta_mi(self):
+        if self.kalan_can<=0:
+            print("öldü")
+        else:
+            print("ölmedi")
+
+aliacar1 = aliacar()
+aliacar2 = aliacar()
+
+aliacar1.saldir()
+aliacar1.saldir()
+aliacar2.hayatta_mi()
